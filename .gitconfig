@@ -1,0 +1,11 @@
+[user]
+	email = atikshaikh436@gmail.com
+	name = ATIQ SHAIKH
+[filesystem "Oracle Corporation|14.0.2|-1676414795"]
+	timestampResolution = 1002 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
